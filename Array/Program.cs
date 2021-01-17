@@ -35,9 +35,26 @@ namespace Array
             for (int i = 1; i < 7; i++)
             {
                 int say = rastgele.Next(1,49);
-                Console.WriteLine("Sayı "+i+"= "+ say);
+                Console.WriteLine("Loto Sayı "+i+"= "+ say);
             }
+            Console.WriteLine(new string('-', 30)+"Çok Boyutlu Diziler\n");
+            string[,] bolgeler = new string[5, 3]//Çok boyutlu dizi tanımlama. Bölgeler ve şehirleri gibi. 5 satır 3 sütundan oluşuyor.
+            {
+                {"İstanbul","İzmit","Balıkesir" },
+                {"Ankara","Konya","Kırıkkale" },
+                {"Antalya","Adana","Mersin" },
+                {"Rize","Trabzon","Samsun" },
+                {"İzmir","Muğla","Manisa" },
+            };
 
+            for (int i = 0; i <= bolgeler.GetUpperBound(0); i++)//getupperbound=0ıncı parametrenin en üst değeri[5,3] dizisinde 5 in olduğu parametre
+            {
+                for (int j = 0; j <= bolgeler.GetUpperBound(1); j++)//getupperbound=1inci parametrenin en üst değeri [5,3] dizisinde 3 ün olduğu parametre
+                {
+                    Console.WriteLine(bolgeler[i, j]);
+                }
+                Console.WriteLine("-------bolgebitti-----");
+            }
 
 
 
