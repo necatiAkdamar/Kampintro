@@ -5,6 +5,7 @@ namespace ClassMetotDemo1
     class Program
     {
         static void Main(string[] args)
+
         {
             musterimanager insertmusteri = new musterimanager();
             insertmusteri.Ekle(1, "necati", "akdamar");

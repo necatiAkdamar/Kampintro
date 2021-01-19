@@ -26,7 +26,6 @@ namespace ClassMetotDemo1
 
             Console.WriteLine("Girmiş olduğunuz " + id + " idli " + adi + " " + soyadi + " müşteri kaydı silinmiştir.");
         }
-
-        
+                
     }
 }

@@ -30,5 +30,6 @@ namespace ClassMetotDemo1
             string s = "Id: "+ _id+", Adı: " + _adi  + ", Soyadi: " + _soyadi + " isimli müşteriler eklendi.";
             return s;
         }
+
     }
 }
