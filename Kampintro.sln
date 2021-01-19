@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kampintro", "Kampintro\Kampintro.csproj", "{5C898BE6-3159-4E61-9527-C7B2D18CF8D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassOdev", "ClassOdev\ClassOdev.csproj", "{1C834B58-58C0-4CB7-A934-9A6E347C10C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassOdev", "ClassOdev\ClassOdev.csproj", "{1C834B58-58C0-4CB7-A934-9A6E347C10C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{5688057F-867E-46BE-98C8-B95FF6A0221B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{5688057F-867E-46BE-98C8-B95FF6A0221B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{C5816A02-CBB3-4654-A378-4475308CFC90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DortIslem", "DortIslem\DortIslem.csproj", "{324819B4-F23D-4A1C-B0FE-70F8FD4E6832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo1", "ClassMetotDemo1\ClassMetotDemo1.csproj", "{6312B9BF-F832-4C59-B9DF-9867C1B542A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C898BE6-3159-4E61-9527-C7B2D18CF8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C898BE6-3159-4E61-9527-C7B2D18CF8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C898BE6-3159-4E61-9527-C7B2D18CF8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C898BE6-3159-4E61-9527-C7B2D18CF8D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C834B58-58C0-4CB7-A934-9A6E347C10C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C834B58-58C0-4CB7-A934-9A6E347C10C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C834B58-58C0-4CB7-A934-9A6E347C10C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +27,18 @@ Global
 		{5688057F-867E-46BE-98C8-B95FF6A0221B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5688057F-867E-46BE-98C8-B95FF6A0221B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5688057F-867E-46BE-98C8-B95FF6A0221B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5816A02-CBB3-4654-A378-4475308CFC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5816A02-CBB3-4654-A378-4475308CFC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5816A02-CBB3-4654-A378-4475308CFC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5816A02-CBB3-4654-A378-4475308CFC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324819B4-F23D-4A1C-B0FE-70F8FD4E6832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324819B4-F23D-4A1C-B0FE-70F8FD4E6832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324819B4-F23D-4A1C-B0FE-70F8FD4E6832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324819B4-F23D-4A1C-B0FE-70F8FD4E6832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6312B9BF-F832-4C59-B9DF-9867C1B542A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6312B9BF-F832-4C59-B9DF-9867C1B542A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6312B9BF-F832-4C59-B9DF-9867C1B542A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6312B9BF-F832-4C59-B9DF-9867C1B542A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
