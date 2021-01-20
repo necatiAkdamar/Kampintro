@@ -12,12 +12,14 @@ namespace ClassMetotDemo1
             get { return _id; } 
             set { _id = value; } 
         }
+
         string _adi;
         public string adi
         {
             get { return _adi; }
             set { _adi = value; }
         }
+
         string _soyadi;
         public string soyadi
         {
