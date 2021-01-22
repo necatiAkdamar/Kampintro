@@ -10,9 +10,8 @@ namespace GenericsIntro
             
             //MyList isimler = new MyList(); //kendi koleksiyonumuzu yazıyoruz.
             MyList<string> isimler = new MyList<string>();
-            isimler.Add = "Engin";
-
-            Console.WriteLine("Hello World!");
+            isimler.Add("engin");
+            Console.WriteLine(isimler);
         }
     }
 }
