@@ -18,14 +18,14 @@ namespace Dictionary
             Console.WriteLine("Lütfen Öğrenci Numarası Giriniz:");
             int No = int.Parse(Console.ReadLine());//intparse girilen değeri integer a çevirir.
 
-            string isim = " ";
+            string isim = "";
             if (ogrenci.TryGetValue(No, out isim))//TrygetValue yapısında koleksiyonda No değeri mevcut ise bununla ilgili değeri isim değişkenine atar.
             {
                 Console.WriteLine(isim);
             }
             else
             {
-                Console.WriteLine("Öğrenci Bulunamadı TryGetValuedan");
+                Console.WriteLine("Öğrenci Bulunamadı TryGetValuedan Gelen");
             }
 
             try//try-catch yapısında try bölümünde kodlarımız bulunur. Catch bölümünde ise
@@ -38,6 +38,7 @@ namespace Dictionary
                 Console.WriteLine("Öğrenci Bulunamadı.");
 
             }
+
             bool varmi = ogrenci.ContainsKey(158);//parametre olarak girilen değerde bir anahtar var ise true yok ise false döndürür.
             //ogrenci.Clear();//koleksiyon içerisinde yer alan tüm anahtar-değer çiftlerini siler.
 
