@@ -22,6 +22,7 @@ namespace MyDictionary
             kayitlar.Add(4, "Yasin Karayasin");
 
             Console.WriteLine("\n Oluşturulan kayıt sayısı: "+kayitlar.Count);
+            
 
 
         }
